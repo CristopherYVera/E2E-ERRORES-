@@ -1,3 +1,6 @@
+'''
+Se importa libreria pandas para manipular datos y crear data frames
+'''
 import pandas as pd
 
 def separar_datos_excel(archivo_excel, hoja_origen, hoja_destino):
