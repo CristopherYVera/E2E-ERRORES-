@@ -1,5 +1,11 @@
+'''
+se importa libreria pandas para poder crear data frame y tratar los datos de la hoja origen
+'''
 import pandas as pd
 
+'''
+funcion separar_datos_excel se usa para tomar la hoja de origen y separarlo por comas
+'''
 def separar_datos_excel(archivo_excel, hoja_origen, hoja_destino):
     df = pd.read_excel(archivo_excel, sheet_name=hoja_origen, header=None)
 
